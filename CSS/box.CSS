@@ -1,0 +1,114 @@
+ /* 背景 */
+ body {
+  background: url(photo/bj.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px; /* 添加顶部间距，使链接与内容区域对齐 */
+}
+
+  .links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      margin: 0 10px; /* 添加左右边距，增加链接之间的间隔 */
+  }
+
+
+/* 方框 */
+#content {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 头像 */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+ /* 头部 */
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+ align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* 社交链接 */
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+  .social-links li {
+      margin: 0 5px;
+  }
+
+  .social-links a {
+      color: #333;
+      text-decoration: none;
+  }
+
+  /* 个人资料框 */
+  #profile-box {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0;
+}
+
+/* 侧边栏 */
+.sidebar h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
