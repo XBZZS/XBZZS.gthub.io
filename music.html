@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>音乐播放器</title>
+</head>
+<link rel="stylesheet" type="text/css" href="CSS/music.CSS">
+<link rel="stylesheet" href="CSS/box.CSS">
+<body>
+     <!-- 页面头部 -->
+     <div class="links">
+      <a href="index.html">主页</a>
+      <a href="blog.html">博客</a>
+      <a href="music.html">播放器</a>
+
+      <body style="background-image: url('photo/bj.jpg');"></body>
+
+
+  </div>
+  <script src="JS/music.JS"></script>
+    <div id="player-container">
+        <div id="music-player">
+            <h2>音乐播放器</h2>
+            <audio id="audio" controls>
+                <source src="music/music.mp3" type="audio/mpeg">
+                <source src="music/1.mp3" type="audio/mpeg">
+            </audio>
+            <p id="status"></p>
+            <div id="controls">
+    <button id="previous" onclick="playPrevious()">播放上一个</button>
+    <button id="next" onclick="playNext()">播放下一个</button>
+    <button id="singleLoop" onclick="setPlaybackMode('singleLoop')">单曲循环</button>
+    <button id="listLoop" onclick="setPlaybackMode('listLoop')">列表循环</button>
+    <button id="shuffle" onclick="setPlaybackMode('shuffle')">随机播放</button>
+</div>
+
+
+        </div>
+        <div id="profile-box">
+            <img class="avatar" src="photo/head.jpg" alt="头像">
+            <h2>闲茄子鱼</h2>
+            <div class="profile-links">
+                <li><a href="https://space.bilibili.com/503727392?spm_id_from=333.1007.0.0">bilibili</a></li>
+                <li><a href="https://github.com/XBZZS">GitHub</a></li>
+            </div>
+        </div>
+    </div>
